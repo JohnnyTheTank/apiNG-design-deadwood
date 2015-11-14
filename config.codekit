@@ -575,17 +575,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 0
 		},
-	"\/bower_components\/apiNG\/dist\/aping.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/apiNG\/dist\/aping.js",
-		"outputAbbreviatedPath": "\/bower_components\/apiNG\/dist\/aping.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
-		},
 	"\/bower_components\/apiNG\/dist\/aping.min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -596,6 +585,28 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 0
+		},
+	"\/bower_components\/apiNG\/Gruntfile.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/apiNG\/Gruntfile.js",
+		"outputAbbreviatedPath": "\/bower_components\/apiNG\/Gruntfile.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
+		},
+	"\/bower_components\/apiNG\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/apiNG\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/bower_components\/apiNG\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/bower_components\/apiNG\/README.md": {
 		"criticStyle": 0,
