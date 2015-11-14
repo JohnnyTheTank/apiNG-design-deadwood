@@ -27,6 +27,7 @@
   "dependencies": {
     "angular-timeago": "~0.2.4",
     "angular-linkify": "~1.2.0",
+    "angular-video-bg": "*",
     "apiNG-plugin-youtube": "*"
   }
 }
