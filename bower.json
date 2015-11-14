@@ -1,0 +1,32 @@
+{
+  "name": "apiNG-design-deadwood",
+  "homepage": "https://github.com/JohnnyTheTank/apiNG-design-deadwood",
+  "authors": [
+    "Jonathan Hornung <jonathan.hornung@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "description": "Design for apiNG (Youtube Videos)",
+  "main": "dist/angular-sample-directive.min.js",
+  "moduleType": [],
+  "keywords": [
+    "aping",
+    "youtube",
+    "angularjs",
+    "rest",
+    "api",
+    "json"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-timeago": "~0.2.4",
+    "angular-linkify": "~1.2.0",
+    "apiNG-plugin-youtube": "*"
+  }
+}
