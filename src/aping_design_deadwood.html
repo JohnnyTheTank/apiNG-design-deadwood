@@ -3,15 +3,15 @@
         <div>
             <div ng-cloak>
                 <div class="embed-responsive embed-responsive-16by9" ng-if="selected" ng-cloak>
-                    <video-bg video-id="selected.intern_id" mute="false" allow-click-events="true" ng-cloak>
+                    <video-bg video-id="selected.intern_id" mute="false" loop="false" ratio="16/9" allow-click-events="true" ng-cloak>
                     </video-bg>
                 </div>
             </div>
             <br>
 
             <div id="deadwood-owl-carousel">
-                <div ng-repeat="feed in workingCopy | orderBy: 'timestamp': true" ng-cloak>
-                    <div class="inner-carousel-item" ng-click="activateVideo(feed, $elem)">
+                <div ng-repeat="feed in workingCopy" class="outer-carousel-item" ng-class="$index==0 ? 'active' : ''" ng-click="activateVideo(feed, $event)" ng-cloak>
+                    <div class="inner-carousel-item">
                         <img ng-src="{{::feed.img_url}}" class="aping-picture-link img-responsive" alt="">
                     </div>
                 </div>

@@ -1,19 +1,27 @@
 .aping-design-deadwood {
-    .inner-carousel-item {
-        padding:0 10px;
-        cursor: pointer;
 
-        &.active {
-            background-color:red;
-        }
+    #deadwood-owl-carousel {
 
-        .aping-picture-link {
+        .outer-carousel-item {
+            .inner-carousel-item {
 
-            @include transition(all 250ms ease);
+                border:2px solid white;
+                padding:0;
+                cursor: pointer;
 
-            &:hover {
-                opacity:1;
-                @include filter(grayscale(0.5) sepia(0.6));
+                .aping-picture-link {
+
+                    @include transition(all 250ms ease);
+
+                    &:hover {
+                        opacity: 1;
+                        @include filter(grayscale(0.5) sepia(0.6));
+                    }
+                }
+
+            }
+            &.active {
+                border:5px solid #ff8888;
             }
         }
 
