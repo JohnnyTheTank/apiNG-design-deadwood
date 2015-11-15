@@ -10,9 +10,9 @@
             <br>
 
             <div id="deadwood-owl-carousel">
-                <div ng-repeat="feed in workingCopy" class="outer-carousel-item" ng-class="$index==0 ? 'active' : ''" ng-click="activateVideo(feed, $event)" ng-cloak>
+                <div ng-repeat="video in workingCopy" class="outer-carousel-item" ng-class="$index==0 ? 'active' : ''" ng-click="activateVideo(video, $event)" ng-cloak>
                     <div class="inner-carousel-item">
-                        <img ng-src="{{::feed.img_url}}" class="aping-picture-link img-responsive" alt="">
+                        <img ng-src="{{::video.img_url}}" class="aping-picture-link img-responsive" alt="">
                     </div>
                 </div>
             </div>
