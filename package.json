@@ -1,0 +1,34 @@
+{
+  "name": "aping-design-deadwood",
+  "version": "0.2.5",
+  "description": "design for apiNG (youtube videos)",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnnyTheTank/apiNG-design-deadwood.git"
+  },
+  "keywords": [
+    "aping",
+    "youtube",
+    "angularjs",
+    "angular",
+    "rest",
+    "api",
+    "json"
+  ],
+  "author": "Jonathan Hornung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JohnnyTheTank/apiNG-design-deadwood/issues"
+  },
+  "homepage": "https://github.com/JohnnyTheTank/apiNG-design-deadwood#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-uglify": "^0.10.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
