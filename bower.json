@@ -4,7 +4,7 @@
   "authors": [
     "Jonathan Hornung <jonathan.hornung@gmail.com>"
   ],
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Design for apiNG (Youtube Videos)",
   "main": "dist/angular-sample-directive.min.js",
   "moduleType": [],
