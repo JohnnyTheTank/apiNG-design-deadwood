@@ -6,7 +6,7 @@
   ],
   "version": "0.2.5",
   "description": "design for apiNG (youtube videos)",
-  "main": "dist/angular-sample-directive.min.js",
+  "main": "dist/aping-design-deadwood.min.js",
   "moduleType": [],
   "keywords": [
     "aping",
