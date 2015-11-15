@@ -54,6 +54,5 @@ angular.module('jtt_aping_deadwood', ['angularVideoBg'])
                 $(_event.currentTarget).addClass("active");
             }
         }
-
     }]);
 

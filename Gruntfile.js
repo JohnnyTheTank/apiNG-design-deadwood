@@ -44,9 +44,7 @@ module.exports = function(grunt) {
             },
             minifySCSS: {
                 files: [
-                    'src/aping-design-deadwood.scss',
-                    'src/_helper.scss',
-                    'src/_style.scss',
+                    'src/*.scss'
                 ],
                 tasks: ['sass'],
                 options: {
