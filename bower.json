@@ -29,7 +29,8 @@
     "apiNG": "*",
     "angular-video-bg": "*",
     "apiNG-plugin-youtube": "*",
-    "bootstrap": "~4"
+    "bootstrap": "~4",
+    "owl-carousel": "~1.3.2"
   },
   "resolutions": {
     "angular": "~1.4.7"

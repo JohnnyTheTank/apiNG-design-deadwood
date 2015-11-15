@@ -1,17 +1,19 @@
-<div class="aping-video-deadwood">
+<div class="aping-design-deadwood">
     <div ng-controller="apingDeadwoodController">
         <div>
-            <div ng-repeat="feed in workingCopy | orderBy: 'timestamp': true | limitTo:1" ng-cloak>
-                <div class="embed-responsive embed-responsive-16by9">
-                    <video-bg video-id="feed.intern_id" ng-cloak>
-
+            <div ng-cloak>
+                <div class="embed-responsive embed-responsive-16by9" ng-if="selected" ng-cloak>
+                    <video-bg video-id="selected.intern_id" mute="false" allow-click-events="true" ng-cloak>
                     </video-bg>
                 </div>
             </div>
             <br>
-            <div class="block-grid-xs-3">
-                <div ng-repeat="feed in workingCopy | orderBy: 'timestamp': true | limitTo:4" ng-if="$index >= 1" ng-cloak>
-                    <img ng-src="{{::feed.img_url}}" class="card-img-top img-responsive" alt="Card image">
+
+            <div id="deadwood-owl-carousel">
+                <div ng-repeat="feed in workingCopy | orderBy: 'timestamp': true" ng-cloak>
+                    <div class="inner-carousel-item" ng-click="activateVideo(feed, $elem)">
+                        <img ng-src="{{::feed.img_url}}" class="aping-picture-link img-responsive" alt="">
+                    </div>
                 </div>
             </div>
         </div>

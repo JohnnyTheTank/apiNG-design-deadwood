@@ -1,5 +1,25 @@
-.aping-video-deadwood {
+.aping-design-deadwood {
+    .inner-carousel-item {
+        padding:0 10px;
+        cursor: pointer;
 
+        &.active {
+            background-color:red;
+        }
+
+        .aping-picture-link {
+
+            @include transition(all 250ms ease);
+
+            &:hover {
+                opacity:1;
+                @include filter(grayscale(0.5) sepia(0.6));
+            }
+        }
+
+
+    }
+    /*
     .card {
         background-color:white;
 
@@ -20,14 +40,11 @@
             }
         }
 
-        img.card-img-top {
-            border-radius: 0;
-        }
-
 
         &:hover {
             @include box-shadow(0 0 5px 0 rgba(0,0,0,0.8));
         }
     }
+    */
 }
 
