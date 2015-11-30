@@ -11,7 +11,7 @@ angular.module('jtt_aping_deadwood', ['angularVideoBg'])
 
         var sliderCount = 4;
 
-        $scope.$on('resultMerged', function () {
+        $scope.$on('apiNG.resultMerged', function () {
             $scope.workingCopy = $scope.results;
 
             if ($scope.workingCopy.length > 0) {
