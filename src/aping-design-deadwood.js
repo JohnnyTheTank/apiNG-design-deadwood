@@ -55,4 +55,3 @@ angular.module('jtt_aping_deadwood', ['angularVideoBg'])
             }
         }
     }]);
-
