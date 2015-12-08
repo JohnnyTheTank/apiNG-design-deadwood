@@ -29,6 +29,10 @@
     }
     */
 }
+.aping-design-deadwood .player {
+  width: 100%;
+  height: 100vh;
+}
 .aping-design-deadwood #deadwood-owl-carousel .outer-carousel-item .inner-carousel-item {
   border: 2px solid white;
   padding: 0;
