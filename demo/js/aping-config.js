@@ -3,7 +3,9 @@
 apingApp.config(['$provide', function ($provide) {
 
     $provide.constant("apingApiKeys", {
-        youtube : "AIzaSyAoZx2uwqnQ7WALp6lOuvWkBM6CfxCEJeA",
+        youtube : [
+            {'apiKey':'AIzaSyAoZx2uwqnQ7WALp6lOuvWkBM6CfxCEJeA'}
+        ]
     });
 
     $provide.constant("apingDefaultSettings", {
