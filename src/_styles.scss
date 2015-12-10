@@ -1,62 +1,38 @@
 .aping-design-deadwood {
 
     .player {
-        width:100%;
-        height:100vh;
+        width: 100%;
+        height: 100vh;
     }
 
     #deadwood-owl-carousel {
+        .owl-item {
 
-        .outer-carousel-item {
+            .outer-carousel-item {
 
-            .inner-carousel-item {
+                .inner-carousel-item {
 
-                border:2px solid white;
-                padding:0;
-                cursor: pointer;
+                    border: 2px solid white;
+                    padding: 0;
+                    cursor: pointer;
 
-                .aping-picture-link {
+                    .aping-picture-link {
 
-                    @include transition(all 250ms ease);
+                        @include transition(all 250ms ease);
 
-                    &:hover {
-                        opacity: 1;
-                        @include filter(grayscale(0.5) sepia(0.6));
+                        &:hover {
+                            opacity: 1;
+                            @include filter(grayscale(0.5) sepia(0.6));
+                        }
                     }
+
                 }
-
-            }
-            &.active {
-                border:5px solid #ff8888;
-            }
-        }
-    }
-    /*
-    .card {
-        background-color:white;
-
-        @include transition(all 250ms ease);
-        @include box-shadow(0 0 5px 0 rgba(0,0,0,0.4));
-        border-radius: 0;
-        border:none;
-
-        margin-bottom:2rem;
-
-        a {
-            &.aping-picture-link {
-
-                &:hover {
-                    opacity:1;
-                    @include filter(grayscale(0.5) sepia(0.6));
+                &.active {
+                    border: 5px solid #ff8888;
                 }
             }
         }
 
-
-        &:hover {
-            @include box-shadow(0 0 5px 0 rgba(0,0,0,0.8));
-        }
     }
-    */
 }
 

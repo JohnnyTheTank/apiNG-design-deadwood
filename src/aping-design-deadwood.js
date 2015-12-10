@@ -3,12 +3,7 @@
 angular.module('jtt_aping_deadwood', ['angularVideoBg'])
     .controller('apingDeadwoodController', ['$scope', function ($scope) {
 
-        //$scope.selected = {};
-
         $scope.workingCopy = [];
-
-        //$scope.results = [];
-
         var sliderCount = 4;
 
         $scope.$on('apiNG.resultMerged', function () {
@@ -30,17 +25,12 @@ angular.module('jtt_aping_deadwood', ['angularVideoBg'])
                         loop: false,
                         mergeFit: false,
                         margin: 10,
-                        responsive:{
-                            0:{
-                                items:2
-                            },
-                            600:{
-                                items:3
-                            },
-                            1000:{
-                                items:sliderCount
-                            }
-                        }
+                        itemsCustom : [
+                            [0, 2],
+                            [1000, 3],
+                            [1400, 4],
+                            [1900, 5]
+                        ]
                     });
                 }
             }, 100)

@@ -1,55 +1,26 @@
 /* Vendor Prefixing */
 /* Custom Functions */
-.aping-design-deadwood {
-    /*
-    .card {
-        background-color:white;
-
-        @include transition(all 250ms ease);
-        @include box-shadow(0 0 5px 0 rgba(0,0,0,0.4));
-        border-radius: 0;
-        border:none;
-
-        margin-bottom:2rem;
-
-        a {
-            &.aping-picture-link {
-
-                &:hover {
-                    opacity:1;
-                    @include filter(grayscale(0.5) sepia(0.6));
-                }
-            }
-        }
-
-
-        &:hover {
-            @include box-shadow(0 0 5px 0 rgba(0,0,0,0.8));
-        }
-    }
-    */
-}
 .aping-design-deadwood .player {
   width: 100%;
   height: 100vh;
 }
-.aping-design-deadwood #deadwood-owl-carousel .outer-carousel-item .inner-carousel-item {
+.aping-design-deadwood #deadwood-owl-carousel .owl-item .outer-carousel-item .inner-carousel-item {
   border: 2px solid white;
   padding: 0;
   cursor: pointer;
 }
-.aping-design-deadwood #deadwood-owl-carousel .outer-carousel-item .inner-carousel-item .aping-picture-link {
+.aping-design-deadwood #deadwood-owl-carousel .owl-item .outer-carousel-item .inner-carousel-item .aping-picture-link {
   -webkit-transition: all 250ms ease;
   -moz-transition: all 250ms ease;
   -ms-transition: all 250ms ease;
   -o-transition: all 250ms ease;
   transition: all 250ms ease;
 }
-.aping-design-deadwood #deadwood-owl-carousel .outer-carousel-item .inner-carousel-item .aping-picture-link:hover {
+.aping-design-deadwood #deadwood-owl-carousel .owl-item .outer-carousel-item .inner-carousel-item .aping-picture-link:hover {
   opacity: 1;
   -webkit-filter: grayscale(0.5) sepia(0.6);
   filter: grayscale(0.5) sepia(0.6);
 }
-.aping-design-deadwood #deadwood-owl-carousel .outer-carousel-item.active {
+.aping-design-deadwood #deadwood-owl-carousel .owl-item .outer-carousel-item.active {
   border: 5px solid #ff8888;
 }
