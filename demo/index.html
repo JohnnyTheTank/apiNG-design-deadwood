@@ -20,7 +20,8 @@
     <script src="//rawgit.com/JohnnyTheTank/apiNG-design-default/master/demo/js/aping-config.js"></script>
 
     <script src="//rawgit.com/JohnnyTheTank/apiNG-plugin-youtube/master/dist/aping-plugin-youtube.min.js"></script>
-
+    <script src="//www.youtube.com/iframe_api"></script>
+    <script src="//cdn.rawgit.com/brandly/angular-youtube-embed/v1.1.1/dist/angular-youtube-embed.min.js"></script>
     <script src="../src/aping-design-deadwood.js"></script>
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
@@ -34,6 +35,7 @@
     model="video"
     order-by="position"
     order-reverse="true"
+    payload-json="{'autoplay':1, 'iv_load_policy':3, 'loop':0, 'showinfo':0}"
     aping-youtube="[{'playlistId':'PLzm_lfByuAEF5RTM5j94TLrbbF4a9PBG4'}]">
 </aping>
 

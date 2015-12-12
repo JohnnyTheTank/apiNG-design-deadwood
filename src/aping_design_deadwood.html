@@ -1,13 +1,13 @@
 <div class="aping-design-deadwood">
     <div ng-controller="apingDeadwoodController">
         <div>
-            <div ng-cloak>
-                <div class="video-container" ng-if="selected" ng-cloak ng-bind-html="getHtml(selected.markup)"></div>
+            <div class="video-container" ng-cloak>
+                <youtube-video video-id="selected.intern_id" player-vars="payload"></youtube-video>
             </div>
             <br>
 
             <div id="deadwood-owl-carousel">
-                <div ng-repeat="video in workingCopy" class="outer-carousel-item" ng-class="$index==0 ? 'active' : ''" ng-click="activateVideo(video, $event)" ng-cloak>
+                <div ng-repeat="video in workingCopy" class="outer-carousel-item" ng-class="$index==currentIndex ? 'active' : ''" ng-click="activateVideo(video, $event, $index)" ng-cloak>
                     <div class="inner-carousel-item">
                         <img ng-src="{{::video.img_url}}" class="aping-picture-link img-responsive-icon" alt="">
                     </div>
