@@ -8,9 +8,9 @@ Youtube Video Design for [apiNG](https://github.com/JohnnyTheTank/apiNG)
 - **`video`** (only youtube)
 
 ## documentation
-full documentation coming soon
+_full documentation coming soon_
 
-### sample
+### sample usage
 ```html
 <aping
     template-url="deadwood_template.html"
