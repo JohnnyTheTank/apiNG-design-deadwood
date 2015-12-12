@@ -9,3 +9,9 @@ Youtube Video Design for [apiNG](https://github.com/JohnnyTheTank/apiNG)
 
 ## documentation
 full documentation coming soon
+
+## dependencies
+* [apiNG](https://github.com/JohnnyTheTank/apiNG)
+* [apiNG-plugin-youtube](https://github.com/JohnnyTheTank/apiNG-plugin-youtube)
+* [angular-youtube-embed](https://github.com/brandly/angular-youtube-embed)
+* [OwlCarousel](https://github.com/OwlFonk/OwlCarousel)
