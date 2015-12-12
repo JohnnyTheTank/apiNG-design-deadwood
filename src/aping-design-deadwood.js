@@ -1,7 +1,7 @@
 "use strict";
 
-angular.module('jtt_aping_deadwood', ['angularVideoBg'])
-    .controller('apingDeadwoodController', ['$scope', function ($scope) {
+angular.module('jtt_aping_deadwood', [])
+    .controller('apingDeadwoodController', ['$scope', '$sce', function ($scope, $sce) {
 
         $scope.workingCopy = [];
         var sliderCount = 4;
@@ -44,4 +44,17 @@ angular.module('jtt_aping_deadwood', ['angularVideoBg'])
                 $(_event.currentTarget).addClass("active");
             }
         }
+
+        $scope.getHtml = function (string) {
+            if(string) {
+                return $sce.trustAsHtml(string);
+            }
+        };
+
+        $scope.getUrl = function (string) {
+            if(string) {
+                return $sce.trustAsResourceUrl(string);
+            }
+        };
+
     }]);

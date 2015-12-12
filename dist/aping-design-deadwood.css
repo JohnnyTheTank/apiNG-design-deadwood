@@ -1,5 +1,28 @@
 /* Vendor Prefixing */
 /* Custom Functions */
+.aping-design-deadwood {
+  /* responsive video-container for any video-type */
+}
+.aping-design-deadwood img.img-responsive-icon {
+  height: auto;
+  max-width: 100%;
+}
+.aping-design-deadwood .video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.aping-design-deadwood .video-container iframe,
+.aping-design-deadwood .video-container object,
+.aping-design-deadwood .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 .aping-design-deadwood .player {
   width: 100%;
   height: 100vh;
@@ -12,7 +35,6 @@
 .aping-design-deadwood #deadwood-owl-carousel .owl-item .outer-carousel-item .inner-carousel-item .aping-picture-link {
   -webkit-transition: all 250ms ease;
   -moz-transition: all 250ms ease;
-  -ms-transition: all 250ms ease;
   -o-transition: all 250ms ease;
   transition: all 250ms ease;
 }
