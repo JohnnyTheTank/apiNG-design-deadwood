@@ -4,6 +4,9 @@ Youtube Video Design for [apiNG](https://github.com/JohnnyTheTank/apiNG)
 ## Demo
 [**Demo**](https://rawgit.com/JohnnyTheTank/apiNG-design-deadwood/master/demo/)
 
+## References
+- [**sonymusic.de/videos**](https://sonymusic.de/videos) based on apiNG-design-deadwood
+
 ## supported apiNG models
 - **`video`** (only youtube)
 
