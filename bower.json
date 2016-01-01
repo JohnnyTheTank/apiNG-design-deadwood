@@ -25,14 +25,10 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "*",
+    "angular-sanitize": "*",
     "apiNG": "*",
     "apiNG-plugin-youtube": "*",
     "owl-carousel": "~1.3.2",
     "angular-youtube-mb": "~1.1.1"
-  },
-  "resolutions": {
-    "angular": "*",
-    "angular-sanitize": "*"
   }
 }
