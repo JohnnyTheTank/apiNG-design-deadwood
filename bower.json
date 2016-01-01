@@ -4,7 +4,7 @@
   "authors": [
     "Jonathan Hornung <jonathan.hornung@gmail.com>"
   ],
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "design for apiNG (youtube videos)",
   "main": "dist/aping-design-deadwood.min.js",
   "moduleType": [],
@@ -32,6 +32,7 @@
     "angular-youtube-mb": "~1.1.1"
   },
   "resolutions": {
-    "angular": "~1.4.7"
+    "angular": "*",
+    "angular-sanitize": "*"
   }
 }

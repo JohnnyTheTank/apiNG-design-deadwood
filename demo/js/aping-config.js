@@ -4,7 +4,7 @@ apingApp.config(['$provide', function ($provide) {
 
     $provide.constant("apingApiKeys", {
         youtube : [
-            {'apiKey':'AIzaSyAoZx2uwqnQ7WALp6lOuvWkBM6CfxCEJeA'}
+            {'apiKey':'<YOUR_YOUTUBE_API_KEY>'},
         ]
     });
 

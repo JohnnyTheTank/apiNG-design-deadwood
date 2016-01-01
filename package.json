@@ -1,6 +1,6 @@
 {
   "name": "aping-design-deadwood",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "video design for apiNG (youtube videos)",
   "main": "Gruntfile.js",
   "scripts": {
