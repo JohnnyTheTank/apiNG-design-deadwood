@@ -5,24 +5,22 @@ angular.module('jtt_aping_deadwood', ['youtube-embed'])
 
         $scope.currentIndex = 0;
 
-        $scope.workingCopy = [];
         var sliderCount = 4;
 
         $scope.owl;
 
         $scope.$on('apiNG.resultMerged', function () {
-            $scope.workingCopy = $scope.results;
 
-            if ($scope.workingCopy.length > 0) {
-                $scope.activateVideo($scope.workingCopy[0], false, $scope.currentIndex);
+            if ($scope.results.length > 0) {
+                $scope.activateVideo($scope.results[0], false, $scope.currentIndex);
             }
 
             setTimeout(function () {
-                if ($scope.workingCopy.length > 0) {
+                if ($scope.results.length > 0) {
                     $scope.currentIndex = 0;
 
-                    if ($scope.workingCopy.length < sliderCount) {
-                        sliderCount = $scope.workingCopy.length;
+                    if ($scope.results.length < sliderCount) {
+                        sliderCount = $scope.results.length;
                     }
 
                     $('#deadwood-owl-carousel').owlCarousel({
@@ -44,8 +42,8 @@ angular.module('jtt_aping_deadwood', ['youtube-embed'])
         });
 
         $scope.$on('youtube.player.ended', function ($event, player) {
-            if($scope.workingCopy.length>$scope.currentIndex) {
-                $scope.activateVideo($scope.workingCopy[$scope.currentIndex+1], false, $scope.currentIndex+1);
+            if($scope.results.length>$scope.currentIndex) {
+                $scope.activateVideo($scope.results[$scope.currentIndex+1], false, $scope.currentIndex+1);
             }
         });
 
@@ -75,5 +73,4 @@ angular.module('jtt_aping_deadwood', ['youtube-embed'])
                 return $sce.trustAsResourceUrl(string);
             }
         };
-
     }]);

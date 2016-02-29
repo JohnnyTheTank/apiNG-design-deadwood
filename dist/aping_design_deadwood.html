@@ -7,7 +7,7 @@
             <br>
 
             <div id="deadwood-owl-carousel">
-                <div ng-repeat="video in workingCopy" class="outer-carousel-item" ng-class="$index==currentIndex ? 'active' : ''" ng-click="activateVideo(video, $event, $index)" ng-cloak>
+                <div ng-repeat="video in results" class="outer-carousel-item" ng-class="$index==currentIndex ? 'active' : ''" ng-click="activateVideo(video, $event, $index)" ng-cloak>
                     <div class="inner-carousel-item">
                         <img ng-src="{{::video.img_url}}" class="aping-picture-link img-responsive-icon" alt="">
                     </div>
