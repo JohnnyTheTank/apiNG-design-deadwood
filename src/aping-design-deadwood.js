@@ -11,6 +11,8 @@ angular.module('jtt_aping_deadwood', ['youtube-embed'])
 
         $scope.$on('apiNG.resultMerged', function () {
 
+            console.log("hi");
+
             if ($scope.results.length > 0) {
                 $scope.activateVideo($scope.results[0], false, $scope.currentIndex);
             }
